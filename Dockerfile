@@ -4,7 +4,7 @@ FROM php:7.4-cli
 RUN apt update && apt upgrade -y
 
 # install software
-RUN apt install -y git zip unzip
+RUN apt install -y git zip unzip curl
 
 # install composer
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
