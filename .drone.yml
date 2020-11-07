@@ -10,9 +10,7 @@ steps:
         from_secret: docker_username
       password:
         from_secret: docker_password
-      repo: harbor.mangi.app/hungrycat/moriki-docker-wput
-      registry: harbor.mangi.app
+      repo: rfjbraunstingl/php-unit-test-base
       tags:
         - latest
         - ${DRONE_COMMIT}
-      steps:
