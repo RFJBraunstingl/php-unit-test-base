@@ -11,6 +11,7 @@ steps:
       password:
         from_secret: docker_password
       repo: harbor.mangi.app/hungrycat/moriki-docker-wput
+      registry: harbor.mangi.app
       tags:
         - latest
         - ${DRONE_COMMIT}
